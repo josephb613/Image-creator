@@ -1939,7 +1939,7 @@ export default function DallE3000() {
     <div className="flex flex-col min-h-screen bg-gradient-to-br from-gray-900 to-gray-800 text-white">
       <header className="p-4 bg-gray-800 shadow-md">
         <div className="container mx-auto flex justify-between items-center">
-          <h1 className="text-2xl font-bold">Créateur d'Images par Joseph Basix ❤️</h1>
+          <h1 className="text-2xl font-bold">Images Creator  by Joseph Basix ❤️</h1>
           <div className="flex items-center space-x-4">
             <button className="p-2 rounded-full bg-purple-600 hover:bg-purple-700 transition-colors">
               <FaBell className="text-white" />

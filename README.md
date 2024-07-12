@@ -1,37 +1,59 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Images Creator par Joseph Basix
 
-## Getting Started
+Images Creator est une application web construite avec Next.js et React qui permet aux utilisateurs de générer des images en se basant sur une description textuelle. Elle utilise le modèle DALL-E 3 pour créer des images uniques et visuellement attrayantes.
 
-First, run the development server:
+## Fonctionnalités
+
+- Générer des images en se basant sur une description textuelle
+- Personnaliser les paramètres des images tels que le préréglage, le style, le contraste, le mode et les dimensions
+- Télécharger les images générées
+- Partager les images sur Facebook, Twitter et Instagram
+- Suggestions de prompts pour générer des images
+
+## Technologies utilisées
+
+- Next.js
+- React
+- Tailwind CSS
+- Modèle DALL-E 3
+
+## Démarrage
+
+Pour exécuter le projet localement, suivez ces étapes :
+
+1. Clonez le dépôt :
+
+```bash
+git clone https://github.com/your-username/images-creator.git
+```
+
+2. Installez les dépendances :
+
+```bash
+cd images-creator
+npm install
+```
+
+3. Démarrez le serveur de développement :
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+4. Ouvrez votre navigateur et visitez `http://localhost:3000` pour voir l'application en action.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## Utilisation
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+1. Entrez une description détaillée de l'image que vous souhaitez générer dans le champ de saisie.
+2. Personnalisez les paramètres de l'image en utilisant les options fournies.
+3. Cliquez sur le bouton "Générer" pour générer les images.
+4. Une fois les images générées, vous pouvez les télécharger ou les partager sur les plateformes de médias sociaux.
+5. Explorez les suggestions de prompts pour vous inspirer.
 
-## Learn More
+## Contribution
 
-To learn more about Next.js, take a look at the following resources:
+Les contributions sont les bienvenues ! Si vous rencontrez des problèmes ou avez des suggestions d'amélioration, n'hésitez pas à ouvrir une issue ou à soumettre une pull request.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Licence
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
-# Image-creator
+Ce projet est sous licence [MIT License](LICENSE).
