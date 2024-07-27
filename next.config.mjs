@@ -36,7 +36,7 @@ const nextConfig = {
       },
     ],
   },
-  distDir: 'dist',  // Ajout de cette ligne
+  distDir: 'dist',  
 };
 
 export default nextConfig;
